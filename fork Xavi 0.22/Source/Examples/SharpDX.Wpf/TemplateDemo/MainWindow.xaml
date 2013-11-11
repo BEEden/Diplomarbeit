@@ -1,0 +1,19 @@
+﻿<Window x:Class="TemplateDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:sdx="clr-namespace:SharpDX;assembly=SharpDX" 
+        xmlns:htx="clr-namespace:HelixToolkit.SharpDX.Wpf;assembly=HelixToolkit.SharpDX.Wpf"
+        Title="Template demo" Height="350" Width="525">
+    <Window.Resources>
+        <DataTemplate x:Key="Template1">
+            <htx:MeshGeometryModel3D Geometry="{Binding Geometry}" Transform="{Binding Transform}" Material="{Binding Material}"/>
+        </DataTemplate>
+    </Window.Resources>
+    <Grid>
+        <htx:Viewport3DX>
+            <htx:AmbientLight3D />
+            <htx:DirectionalLight3D Direction = "-2,-5,-2"/>
+            <htx:ItemsModel3D ItemTemplate="{StaticResource Template1}" ItemsSource="{Binding Items}"/>
+        </htx:Viewport3DX>
+    </Grid>
+</Window>

@@ -1,0 +1,754 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HelixToolkit.SharpDX.Wpf.BaseViewModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADCACAAgAAAFAAIAAAAEAAgACAABBQAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\BaseViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.CameraExtensions" Collapsed="true">
+    <Position X="37.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAIAgAAAAABEAAAoEAIAAAACAAAGgAAggAAAQAJAM=</HashCode>
+      <FileName>Controls\CameraExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.DeferredRenderer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIIAAAACACACFIAABAwCAAAQIAAABEEAAShCBCgACAA=</HashCode>
+      <FileName>Controls\DeferredRenderer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.Disposer" Collapsed="true">
+    <Position X="44.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\Disposer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.DPFCanvas" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACQKAECAEQgBAAAMAEgCAgEYIQAAAgVQBgACDAAAAA=</HashCode>
+      <FileName>Controls\DPFCanvas.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.DX11ImageSource" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAyACACACAgAAQAAIAAAAAAAAAAAAAQAAAEABAAAAA=</HashCode>
+      <FileName>Controls\DX11ImageSource.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.Techniques" Collapsed="true">
+    <Position X="41.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAACAoBAAAAAAAMAAAQBAAAAAACIAAQAGQgAAAEAg=</HashCode>
+      <FileName>Controls\Effects.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.EffectsManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgACAACACAAAAAACAAAYAAAIABAAAAIQAAQAAAAAAA=</HashCode>
+      <FileName>Controls\Effects.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.FpsCounter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAACAAAIAAAAIAAhAQAAAAAAAAkAABAAAA=</HashCode>
+      <FileName>Controls\FpsCounter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.CameraSetting" Collapsed="true">
+    <Position X="39.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAgQQAAAEAAAAAAAAACAAQAAACAAAA=</HashCode>
+      <FileName>Controls\MouseHandlers\CameraSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.ManipulationEventArgs" Collapsed="true">
+    <Position X="36" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\MouseHandlers\ManipulationEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.MouseGestureHandler" Collapsed="true">
+    <Position X="4" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAgCIACAAAAEAgYIAEBAKAAQARKCAYAAIAAQAIgGAAA=</HashCode>
+      <FileName>Controls\MouseHandlers\MouseGestureHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.PanHandler" Collapsed="true">
+    <Position X="5.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QABAAAAAAAAAAgAAAEAAAAAAAAICAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Controls\MouseHandlers\PanHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.RotateHandler" Collapsed="true">
+    <Position X="7.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIQAAAgAAACAAIACEABAAAAEAKCDAAAEAAYAAAAAAI=</HashCode>
+      <FileName>Controls\MouseHandlers\RotateHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.ZoomHandler" Collapsed="true">
+    <Position X="0.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAIBAIACCAIAEEAAAAAAAAIAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Controls\MouseHandlers\ZoomHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.ZoomRectangleHandler" Collapsed="true">
+    <Position X="3" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAIAAEAAAAAAAAIAAAAAAAASAAAAAgA=</HashCode>
+      <FileName>Controls\MouseHandlers\ZoomRectangleHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.RelayCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEACAAQAAECAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\RelayCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.RenderContext" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACihAIAiAAAAAAAAIAAgEAwAIAgAAAAAAAABAAAAA=</HashCode>
+      <FileName>Controls\RenderContext.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.RenderUtil" Collapsed="true">
+    <Position X="46.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\RenderUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.Viewport3DX" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>uRszuMMPdPx953v9N7TM7PrTPjWX0/GzumXvpne/x18=</HashCode>
+      <FileName>Controls\Viewport3DX.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.ViewportCommands" Collapsed="true">
+    <Position X="37.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAQgIGAEAABgACEIAQAhiAEAAKAABAAAAGQAAABoI=</HashCode>
+      <FileName>Controls\ViewportCommands.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.ViewportExtensions" Collapsed="true">
+    <Position X="39.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAACBAAEAoAAAoBgCIAAAgAEIAAAAhAAAEKEECA=</HashCode>
+      <FileName>Controls\ViewportExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.CuttingEarsTriangulator" Collapsed="true">
+    <Position X="41.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAABAAAAAAAAAAAAIAQAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Core\CuttingEarsTriangulator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.HelixToolkitException" Collapsed="true">
+    <Position X="44.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\HelixToolkitException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.Polygon" Collapsed="true">
+    <Position X="36" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\Polygon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.Polygon3D" Collapsed="true">
+    <Position X="37.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAgAAAAAAAAEAAQAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\Polygon3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.Ray3" Collapsed="true">
+    <Position X="39.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAACAAAAAAAAAAAAAAAQAAAAgAAAA=</HashCode>
+      <FileName>Core\Ray3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.Ray3D" Collapsed="true">
+    <Position X="41.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAACAAAAAAAAAAAAAAAQAAAAgAAAA=</HashCode>
+      <FileName>Core\Ray3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.Element3D" Collapsed="true">
+    <Position X="17.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQKKAACAAACAAIAAAAAAAAAAIAAAAAAEBAAAAAAAAA=</HashCode>
+      <FileName>Model\Elements3D\AbstractElements3D\Element3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.GeometryModel3D" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAACAAgCBEAAAAAAGSAACAAAQAAAAgAAQAAQgw4hA=</HashCode>
+      <FileName>Model\Elements3D\AbstractElements3D\GeometryModel3D.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.Mouse3DEventArgs" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAEAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Elements3D\AbstractElements3D\GeometryModel3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.MouseDown3DEventArgs" Collapsed="true">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Elements3D\AbstractElements3D\GeometryModel3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.MouseUp3DEventArgs" Collapsed="true">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Elements3D\AbstractElements3D\GeometryModel3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.MouseMove3DEventArgs" Collapsed="true">
+    <Position X="5.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Elements3D\AbstractElements3D\GeometryModel3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.GroupElement3D" Collapsed="true">
+    <Position X="32.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIgAAAEAAAAAIAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Model\Elements3D\AbstractElements3D\GroupElement3D.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.MaterialGeometryModel3D" Collapsed="true">
+    <Position X="9.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gFCQQgACFiJAIgIAIAAAEAAAABECAAQCQCAAwAARCCI=</HashCode>
+      <FileName>Model\Elements3D\AbstractElements3D\MaterialGeometryModel3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.Model3D" Collapsed="true">
+    <Position X="14.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAgBAAAAAAABABAASAABAAAAAAAAAAABAAgAA=</HashCode>
+      <FileName>Model\Elements3D\AbstractElements3D\Model3D.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.UIElement3D" Collapsed="true">
+    <Position X="2" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Elements3D\AbstractElements3D\UIElement3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.CompositeModel3D" Collapsed="true">
+    <Position X="4.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAYAAIAEAAAAAIAAAAAAABAAAAAAAgA=</HashCode>
+      <FileName>Model\Elements3D\CompositeModel3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.DraggableGeometryModel3D" Collapsed="true">
+    <Position X="6.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAABAAAAgAAAAAABAAAAAEAAAQAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Model\Elements3D\DraggableGeometryModel3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.Element3DCollection" Collapsed="true">
+    <Position X="39.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Elements3D\Element3DCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.ElementComparer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="41.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Elements3D\Element3DCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.EnvironmentMap3D" Collapsed="true">
+    <Position X="17.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACQQgAAAAIAQAIAEAAQAAIAApCgAAAAAhAAQAAABAA=</HashCode>
+      <FileName>Model\Elements3D\EnvironmentMapModel3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.GroupModel3D" Collapsed="true">
+    <Position X="31.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAgBBAAAAgABAAAASAAJAAAABABBAAABAAgAA=</HashCode>
+      <FileName>Model\Elements3D\GroupModel3D.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.ItemsModel3D" Collapsed="true">
+    <Position X="4.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAABAAAAAAAAEABAIAAAAA=</HashCode>
+      <FileName>Model\Elements3D\ItemsModel3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.Light3DCollection" Collapsed="true">
+    <Position X="33.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAIAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Model\Elements3D\Light3DCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.LineGeometryModel3D" Collapsed="true">
+    <Position X="15.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QACQQjAAFCIBAAIAAAAAAAAAApCBAEQCQFAAgAAAACA=</HashCode>
+      <FileName>Model\Elements3D\LineGeometryModel3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.MeshGeometryModel3D" Collapsed="true">
+    <Position X="8.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAACAAAAIAAAAAAAAAAIAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Model\Elements3D\MeshGeometryModel3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.PNTechniques" Collapsed="true">
+    <Position X="46.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABEAAAABAAAAA=</HashCode>
+      <FileName>Model\Elements3D\PNPatchGeometryModel3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.PNPatchGeometryModel3D" Collapsed="true">
+    <Position X="13.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAcAAABBAGAAAAIAAAAAAAAAAIAAAAQAAFAAAgAAAAA=</HashCode>
+      <FileName>Model\Elements3D\PNPatchGeometryModel3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.UICompositeManipulator3D" Collapsed="true">
+    <Position X="31.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>0AACgQAAAABIAIAAAIDQWwAAiAAAAAAAIBAFAggAAAA=</HashCode>
+      <FileName>Model\Elements3D\UICompositeManipulator3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.UIManipulator3D" Collapsed="true">
+    <Position X="9.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAggAIAAAIAgAABAAQAACAgEQAAAMgIAAkAAoYgQE=</HashCode>
+      <FileName>Model\Elements3D\UIManipulator3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.UIRotateManipulator3D" Collapsed="true">
+    <Position X="8.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAMADQIAAAAAQAAAAAAAABAAAAAIAAQIBAAAAACAAA=</HashCode>
+      <FileName>Model\Elements3D\UIRotateManipulator3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.UITranslateManipulator3D" Collapsed="true">
+    <Position X="11" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIAAAAAAAAACAAAABAAAAAAAAAIAABgAAAAAA=</HashCode>
+      <FileName>Model\Elements3D\UITranslateManipulator3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.Geometry3D" Collapsed="true">
+    <Position X="6.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Model\Geometry\Geometry3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.LineGeometry3D" Collapsed="true">
+    <Position X="5.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Geometry\LineGeometry3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.MeshGeometry3D" Collapsed="true">
+    <Position X="7.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAABAAAAIAAAAAAAAAAAABAAAAAAABA=</HashCode>
+      <FileName>Model\Geometry\MeshGeometry3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.AmbientLight3D" Collapsed="true">
+    <Position X="20" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAIAAAAAAAAAAICAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Lights3D\AmbientLight3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.DirectionalLight3D" Collapsed="true">
+    <Position X="22.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAIAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Model\Lights3D\DirectionalLight3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.Light3D" Collapsed="true">
+    <Position X="23.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AADIAAgLAOgAQAIIASAAAAAQwYCBABAAAAACoBFBAAg=</HashCode>
+      <FileName>Model\Lights3D\Light3D.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.PointLightBase3D" Collapsed="true">
+    <Position X="25.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAgAAAAAACAAACAAABABAQAAQAAAAA=</HashCode>
+      <FileName>Model\Lights3D\Light3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.PointLight3D" Collapsed="true">
+    <Position X="24.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAIAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Model\Lights3D\PointLight3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.ShadowMap3D" Collapsed="true">
+    <Position X="29" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAACAAQCAkAZgQAAAAIAIAICgAACACBAAAAAAIAA=</HashCode>
+      <FileName>Model\Lights3D\ShadowMap3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.SpotLight3D" Collapsed="true">
+    <Position X="26.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAgAAAAIAAQACIAAAAIAAAAAAAFAAAAAAAAA=</HashCode>
+      <FileName>Model\Lights3D\SpotLight3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.Material" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Materials\Material.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.PhongMaterial" Collapsed="true">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAEgAAAAIAAwAAAAAgASQAgAQAACFAAAAAEAAwBA=</HashCode>
+      <FileName>Model\Materials\PhongMaterial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.PhongMaterialCollection" Collapsed="true">
+    <Position X="43" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Materials\PhongMaterialFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.PhongMaterials" Collapsed="true">
+    <Position X="44.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMAPAVBAgCAUApAACAhAAAAEFBACAAAAACAAIDAgBMU=</HashCode>
+      <FileName>Model\Materials\PhongMaterialFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.LineBuilder" Collapsed="true">
+    <Position X="46.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAoABCAAAAAAAAAAABgAIAAAgAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Utilities\LineBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.MeshBuilder" Collapsed="true">
+    <Position X="39.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oBBgCAzFEQFFKBAgCoIBYIEJAoFMEYASRJE0EAAaAB0=</HashCode>
+      <FileName>Utilities\MeshBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.Mesh3D" Collapsed="true">
+    <Position X="37.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Utilities\ObjReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.ObjReader" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="41.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkgAAEgAEAAAwhAAAEBoKoggAAAgEiAUQBAAgAABIAA=</HashCode>
+      <FileName>Utilities\ObjReader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.StringExtensions" Collapsed="true">
+    <Position X="39.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQCAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\StringExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.VectorExtensions" Collapsed="true">
+    <Position X="46.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAEAAAQYAAAAQAAAAAAEBAAEAIAAUIAAASAAAAA=</HashCode>
+      <FileName>Extensions\Vector3DExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.VectorComparisonExtensions" Collapsed="true">
+    <Position X="44.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAQAAAAAAAAAAAAAAAAAAAAIIAIAAACCAAAA=</HashCode>
+      <FileName>Extensions\Vector3DExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Camera" Collapsed="true">
+    <Position X="13" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAgQAAAAAAAIAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Model\Camera\Camera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.MatrixCamera" Collapsed="true">
+    <Position X="15.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEQAAAAAgQAAAAAAAIAIAAAAAAAAAAAgACDE=</HashCode>
+      <FileName>Model\Camera\MatrixCamera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.OrthographicCamera" Collapsed="true">
+    <Position X="13" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAEAAIAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Model\Camera\OrthographicCamera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.PerspectiveCamera" Collapsed="true">
+    <Position X="10.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAIAAAAAACAAAAAQAAACA=</HashCode>
+      <FileName>Model\Camera\PerspectiveCamera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.ProjectionCamera" Collapsed="true">
+    <Position X="11.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIEAAIAAEAgCAAAgQQAAACAAAQAAAABAAAQAAAABKAA=</HashCode>
+      <FileName>Model\Camera\ProjectionCamera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wpf3DTools.Trackball" Collapsed="true">
+    <Position X="43" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQRAAAAAAAAggAREQAAAAQAIBEAAQAAMAAAAAACACA=</HashCode>
+      <FileName>Controls\Trackball.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.Properties.Resources" Collapsed="true">
+    <Position X="36" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEAAAAAAAAAAAAIQAAAJMAAAAQAAAAACAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelixToolkit.SharpDX.Wpf.Properties.Settings" Collapsed="true">
+    <Position X="37.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="HelixToolkit.SharpDX.Wpf.DefaultVertex" Collapsed="true">
+    <Position X="39.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAgAAIAgAAAAAAIAAACAAAAgAAAAAA=</HashCode>
+      <FileName>Controls\Effects.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="HelixToolkit.SharpDX.Wpf.LinesVertex" Collapsed="true">
+    <Position X="43" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAgAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Controls\Effects.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="HelixToolkit.SharpDX.Wpf.CubeVertex" Collapsed="true">
+    <Position X="37.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\Effects.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="HelixToolkit.SharpDX.Wpf.HitTestResult" Collapsed="true">
+    <Position X="41.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAIBAgAAAAAABAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\HitTestResult.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="HelixToolkit.SharpDX.Wpf.ModelInfo" Collapsed="true">
+    <Position X="44.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilities\IModelReader.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="HelixToolkit.SharpDX.Wpf.Core.Box3" Collapsed="true">
+    <Position X="36" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAADQAJAAgAACEAgAgABAAAAAAIAAAAAAARAYAIA=</HashCode>
+      <FileName>Core\Box3D.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="HelixToolkit.SharpDX.Wpf.IRenderable" Collapsed="true">
+    <Position X="41.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCCAAAAAAACAIAAAAAAAAACIAAABAAABAAAAAAAAA=</HashCode>
+      <FileName>Controls\IRenderable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HelixToolkit.SharpDX.Wpf.IVisible" Collapsed="true">
+    <Position X="1.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HelixToolkit.SharpDX.Wpf.IThrowingShadow" Collapsed="true">
+    <Position X="44.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Model\Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HelixToolkit.SharpDX.Wpf.IHitable" Collapsed="true">
+    <Position X="0.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HelixToolkit.SharpDX.Wpf.IBoundable" Collapsed="true">
+    <Position X="2.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Model\Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HelixToolkit.SharpDX.Wpf.ITransformable" Collapsed="true">
+    <Position X="46.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAQAABAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Model\Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HelixToolkit.SharpDX.Wpf.IElement3DCollection" Collapsed="true">
+    <Position X="36" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HelixToolkit.SharpDX.Wpf.ILight3D" Collapsed="true">
+    <Position X="37.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Lights3D\Light3D.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HelixToolkit.SharpDX.Wpf.IModelReader" Collapsed="true">
+    <Position X="39.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilities\IModelReader.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HelixToolkit.SharpDX.IRenderHost" Collapsed="true">
+    <Position X="43" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQCAAAAAQAAgAAIAQAAAAAAQAAAAkAAAAAACAAAAA=</HashCode>
+      <FileName>Controls\IRenderHost.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="HelixToolkit.SharpDX.Wpf.CameraMode" Collapsed="true">
+    <Position X="37.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAgAAA=</HashCode>
+      <FileName>Controls\MouseHandlers\CameraMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HelixToolkit.SharpDX.Wpf.CameraRotationMode" Collapsed="true">
+    <Position X="39.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAIAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\MouseHandlers\CameraRotationMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HelixToolkit.SharpDX.Wpf.TouchMode" Collapsed="true">
+    <Position X="44.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Controls\MouseHandlers\TouchMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HelixToolkit.SharpDX.Wpf.LightType" Collapsed="true">
+    <Position X="41.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAgAAEAAAAA=</HashCode>
+      <FileName>Model\Lights3D\Light3D.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HelixToolkit.SharpDX.Wpf.MeshFaces" Collapsed="true">
+    <Position X="43" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilities\IModelReader.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HelixToolkit.SharpDX.Wpf.BoxFaces" Collapsed="true">
+    <Position X="36" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACAAAA=</HashCode>
+      <FileName>Utilities\MeshBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
